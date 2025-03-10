@@ -24,7 +24,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM product ORDER BY id DESC");
         while($product_data = mysqli_fetch_array($result)) {         
             echo "<tr>";
             echo "<td>".$product_data['name']."</td>";
-            echo "<td>".$product_data['price']."</td>";
+            echo "<td>Rp ".$product_data['price']."</td>";
             echo "<td>".$product_data['stock_quantity']."</td>";    
             echo "<td class='action-links'><a href='edit.php?id=$product_data[id]' class='edit-link'>Edit</a> | <a href='delete.php?id=$product_data[id]' class='delete-link'>Delete</a></td></tr>";        
         }

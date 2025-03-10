@@ -51,7 +51,7 @@ while($product_data = mysqli_fetch_array($result))
 			<input type="text" name="name" value="<?php echo $name;?>" required>
 		</div>
 		<div class="form-group">
-			<label>Price</label>
+			<label>Price (in Rupiah)</label>
 			<input type="number" name="price" value="<?php echo $price;?>" step="0.01" required>
 		</div>
 		<div class="form-group">

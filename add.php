@@ -16,7 +16,7 @@
 				<input type="text" name="name" required>
 			</div>
 			<div class="form-group">
-				<label>Price</label>
+				<label>Price (in Rupiah)</label>
 				<input type="number" name="price" step="0.01" required>
 			</div>
 			<div class="form-group">
